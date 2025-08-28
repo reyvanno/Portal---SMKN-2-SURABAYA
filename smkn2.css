@@ -1,0 +1,199 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-image: url(bg\ smk2.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+:root {
+    --white: #ffffff;
+}
+
+nav {
+    z-index: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navtext {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.imglogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 50px;
+    row-gap: 10px;
+    padding-top: 70px;
+    margin-left: 135px;
+    justify-content: start;
+}
+
+.subheader {
+    position: relative;
+    background-color:black;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    transition: ease 0.5s;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.subheader > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
+    font-size: 20px;
+    transition: ease 0.5s;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.subheader:hover > a {
+    transform: scale(1.1);
+}
+
+.subheader:nth-of-type(2) {
+    background-color: hsl(165, 100%, 39%);
+}
+
+.subheader:nth-of-type(3) {
+    background-color: hsl(251, 62%, 43%);
+}
+
+.subheader:nth-of-type(4) {
+    background-color: hsl(219, 85%, 61%);
+}
+
+.subheader:nth-of-type(5) {
+    background-color: hsl(330, 64%, 53%);
+}
+
+.subheader:nth-of-type(6) {
+    background-color: hsl(46, 94%, 50%);
+}
+
+.subheader:nth-of-type(7) {
+    background-color: hsl(0, 82%, 53%);
+}
+
+.subheader:nth-of-type(8) {
+    background-color: hsl(110, 69%, 54%);
+}
+
+footer {
+    background-color: #ffffff;
+    top: 22.8%;
+    width: 100%;
+    height: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foottext {
+    padding-top: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.home {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+    margin: 0;
+}
+
+.portal {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 127px;
+    left: 130px;
+    margin: 0;
+}
+.elearning {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 115px;
+    left: 130px;
+    margin: 0;
+}
+.bkk {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+    margin: 0;
+}
+.e-pkl {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 90px;
+    left: 130px;
+    margin: 0;
+}
+.e-presensi {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 74px;
+    left: 130px;
+    margin: 0;
+}
+.e-library {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 92px;
+    left: 130px;
+    margin: 0;
+}
+.cbt {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 110px;
+    left: 130px;
+    margin: 0;
+}
