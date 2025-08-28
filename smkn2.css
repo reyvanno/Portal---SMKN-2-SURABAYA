@@ -203,3 +203,57 @@ footer {
     margin: 0;
 }
 
+/* ===== MEDIA QUERY MOBILE ===== */
+@media (max-width: 768px) {
+    .header {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 200px);
+        gap: 20px;
+        row-gap: 20px;
+        padding-top: 80px;
+        margin: 0 10px;
+        justify-content: center;
+        transform: translateX(0);
+    }
+
+    .subheader {
+        width: 100%;
+        max-width: 250px;
+        height: 160px;
+        font-size: 18px;
+    }
+
+    .subheader > a {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .home, .portal, .elearning, .bkk, .e-pkl, .e-presensi, .e-library, .cbt {
+        width: 60px;
+        height: 60px;
+        bottom: auto;
+        left: auto;
+        margin-top: 10px;
+    }
+
+    nav {
+        height: 60px;
+        padding-left: 10px;
+    }
+
+    .navtext {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 35px;
+    }
+
+    .foottext {
+        line-height: 35px;
+        font-size: 14px;
+    }
+}
