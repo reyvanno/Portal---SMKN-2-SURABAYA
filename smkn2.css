@@ -259,7 +259,7 @@ footer {
     .e-library { bottom: 90px; left: 190px; width: 100px; height: 100px;}
     .cbt { bottom: 109px; left: 190px; width: 100px; height: 100px;}
 
-    footer:not(.mobile) { display: none; }
+    /* footer:not(.mobile) { display: none; } */
 
     footer.mobile {
         display: flex;
@@ -277,9 +277,9 @@ footer {
         transition: transform 0.3s ease-in-out;
     }
 
-    footer.mobile.hide {
+    /* footer.mobile.hide {
         transform: translateY(100%);
-    }
+    } */
 
     .foottext { font-size: 10px; line-height: 35px; }
 }
