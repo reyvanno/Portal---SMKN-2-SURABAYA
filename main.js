@@ -1,14 +1,11 @@
 let lastScrollTop = 0;
-const footer = document.querySelector('footer');
+const mobileFooter = document.querySelector('footer.mobile');
 
-window.addEventListener('scroll', function() {
-    let st = window.pageYOffset || document.documentElement.scrollTop;
-    if (st > lastScrollTop) {
-        footer.style.transform = 'translateY(0)';
-        footer.style.transition = 'transform 0.3s ease';
-    } else {
-        footer.style.transform = 'translateY(100%)';
-        footer.style.transition = 'transform 0.3s ease';
+window.addEventListener('scroll', () => {
+    const st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop){
+        mobileFooter.classList.add('hide'); 
+        mobileFooter.classList.remove('hide');
     }
     lastScrollTop = st <= 0 ? 0 : st;
 });
