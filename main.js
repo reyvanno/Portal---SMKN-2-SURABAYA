@@ -1,14 +1,12 @@
-let lastScrollTop = 0;
+let lastScroll = 0;
 const footer = document.querySelector('footer');
 
-window.addEventListener('scroll', function() {
-    if (window.innerWidth <= 768) {
-        const st = window.pageYOffset || document.documentElement.scrollTop;
-        if (st > lastScrollTop) {
-            footer.classList.remove('hide');
-        } else {
-            footer.classList.add('hide');
-        }
-        lastScrollTop = st <= 0 ? 0 : st;
+window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll > lastScroll) {
+        footer.classList.add('hide');
+    } else {
+        footer.classList.remove('hide');
     }
+    lastScroll = currentScroll;
 });
