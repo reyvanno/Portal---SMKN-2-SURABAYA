@@ -203,7 +203,6 @@ footer {
     margin: 0;
 }
 
-/* ===== MEDIA QUERY MOBILE ===== */
 @media (max-width: 768px) {
     .header {
         grid-template-columns: repeat(2, 1fr);
