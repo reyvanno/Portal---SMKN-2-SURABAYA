@@ -127,7 +127,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    /* font-size: 12px; */
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
     /* transition: transform 0.3s ease-in-out; */
@@ -214,7 +214,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-      nav {
+    nav {
         justify-content: center;
         padding-left: 0;
     }
